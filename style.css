@@ -8,15 +8,19 @@ h1 {
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.699);
 }
+h2 {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.678);
+}
 .orange-color {
   color: orange;
 }
 p {
-  font-size: 25px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.568);
   text-align: justify;
 }
-section {
+.flex-container {
   display: flex;
   margin-top: 50px;
   margin-bottom: 100px;
@@ -45,4 +49,43 @@ section {
 }
 .button-look {
   margin-top: 100px;
+}
+.food-content {
+  text-align: center;
+}
+.food-item {
+  box-shadow: 10px 10px 40px rgb(214, 207, 207);
+  width: 30%;
+  margin-left: 5%;
+  margin-right: 5%;
+  border-radius: 20px;
+  padding: 20px;
+}
+.food-item img {
+  width: 100%;
+}
+.social-area {
+  box-shadow: 10px 10px 40px gray;
+  display: flex;
+  text-align: center;
+  width: 80%;
+  margin: 15px auto;
+  border-radius: 20px;
+  margin-bottom: 80px;
+  padding-bottom: 10px;
+}
+.social-content {
+  margin-left: 14%;
+}
+.social-content h1 {
+  color: black;
+}
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 8px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  height: 250px;
 }
