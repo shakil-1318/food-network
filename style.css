@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   margin: 0;
 }
+/* navbar area start */
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -25,9 +26,10 @@ body {
   margin-right: 5rem;
   color: white;
 }
+/* navbar area end */
 
 h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bolder;
   color: rgba(0, 0, 0, 0.699);
 }
@@ -65,6 +67,7 @@ p {
   font-size: 20px;
   border-radius: 30px;
 }
+/* about area start */
 .about-me-area {
   background-image: url(./images/shapes/Frame\ 57.jpg);
 }
@@ -74,7 +77,9 @@ p {
 .button-look {
   margin-top: 100px;
 }
+/* about area end */
 
+/* food recipie area start */
 .food-content {
   text-align: center;
 }
@@ -92,6 +97,30 @@ p {
 .food-item img {
   width: 100%;
 }
+/* food area recipie end */
+
+/* registration area start */
+.registration-area {
+  box-shadow: 10px 10px 40px gray;
+  margin: 25px auto;
+  width: 50%;
+  text-align: center;
+  padding: 50px 50px;
+  margin-bottom: 80px;
+  border-radius: 10px;
+}
+.registration-area button {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  margin-top: 5px;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+/* registration area end */
+
+/* social area start */
 .social-area {
   box-shadow: 10px 10px 40px gray;
   display: flex;
@@ -108,6 +137,9 @@ p {
 .social-content h1 {
   color: black;
 }
+/* social area end */
+
+/* Footer area start */
 footer {
   background-color: black;
   color: white;
@@ -125,3 +157,4 @@ footer {
   color: white;
   font-size: 18px;
 }
+/* footer area end */
