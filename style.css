@@ -1,3 +1,5 @@
+/* css style start */
+
 body {
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
@@ -70,10 +72,11 @@ p {
 /* about area start */
 .about-me-area {
   background-image: url(./images/shapes/Frame\ 57.jpg);
+  padding-top: 80px;
 }
-.about-content {
+/* .about-content {
   margin-top: 60px;
-}
+} */
 .button-look {
   margin-top: 100px;
 }
