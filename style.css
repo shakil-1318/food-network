@@ -130,6 +130,7 @@ p {
   text-align: center;
   width: 80%;
   margin: 15px auto;
+  /* border: 2px solid black; */
   border-radius: 20px;
   margin-bottom: 80px;
   padding-bottom: 10px;
@@ -161,3 +162,75 @@ footer {
   font-size: 18px;
 }
 /* footer area end */
+/*-------------------------
+             media queries start
+  -------------------------------------*/
+@media only screen and (max-width: 688px) {
+  .navbar {
+    flex-direction: column;
+    height: 100px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px;
+  }
+  .navbar-menu a {
+    margin-right: 1rem;
+    color: white;
+  }
+  .navbar-menu {
+    margin-left: 15px;
+  }
+  .navbar .logo a {
+    margin-left: 100px;
+    /* margin-right: 100px; */
+  }
+
+  .flex-container {
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-left: 10px;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgba(0, 0, 0, 0.699);
+  }
+  .half-width {
+    width: 90%;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+  }
+  .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    padding: 5px 10px;
+    margin-top: 30px;
+    color: white;
+    font-size: 10px;
+    border-radius: 30px;
+  }
+  p {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.568);
+    text-align: justify;
+    padding-right: 20px;
+  }
+  .about-me-area {
+    background-image: url(./images/shapes/Frame\ 57.jpg);
+    padding-top: 80px;
+  }
+  .food-item {
+    width: 80%;
+  }
+  .registration-area {
+    width: 60%;
+  }
+
+  .social-area {
+    display: none;
+  }
+}
